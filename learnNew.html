@@ -13,13 +13,42 @@
 
 <body class="bg-[#F4F7FF]">
     <div
-        class="container w-ull fit p-5 bg-white mx-auto rounded-2xl flex justify-between items-center md:justify-between lg:justify-between">
+        class="container w-ull fit p-5 bg-white mx-auto rounded-2xl shadow-md flex justify-between items-center md:justify-between lg:justify-between">
         <div class="flex items-center gap-2"><img src="./assets/logo.png" alt="">
             <h1 class="text-3xl font-bold">Dev<span class="text-gray-600">Boord</span> </h1>
         </div>
         <div class="flex items-center gap-2">
             <p class="btn btn-primary" id="back">Back to Dashbord</p>
         </div>
+    </div>
+
+    <div class="bg-[#F4F7FF]">
+        <div class="container w-full h-fit bg-white flex flex-col justify-center mx-auto  mt-5 p-3 rounded-xl">
+            <div class="p-5 mt-1">
+                <h1 class="font-semibold text-xl  border-dashed border-b-2 ">What are the different ways to select an element in the DOM?</h1>
+                <p>There are 5 waays to select an element in DOM. These are<br>1. getElementById()<br>2. querySelectorAll()<br>3. querySelector()<br>4. getElementsByClassName()<br>5. getElementsByTagName()</p>
+            </div>
+
+            <div class="p-5 mt-1">
+                <h1 class="font-semibold text-xl  border-dashed border-b-2 ">What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <p>1. innerHTML returns all the elements including spacing , tags and texts <br>2. innerText returns only text content excluding extra spacing from inside an html tag<br>3. textContent returns only text contents including spcing but without any tags from inside an HTML element</p>
+            </div>
+
+            <div class="p-5 mt-1">
+                <h1 class="font-semibold text-xl  border-dashed border-b-2 ">What is event delegation in the DOM?</h1>
+                <p>event delegation means some events will be held when a specific task complete. Its can be button click , text click , hover on something etc</p>
+            </div>
+            <div class="p-5 mt-1">
+                <h1 class="font-semibold text-xl  border-dashed border-b-2 ">What is event delegation in the DOM?</h1>
+                <p>Event bubbling is a mechanism where an event triggered on a child element and a specific task will be complete according to directions</p>
+            </div>
+
+            <div class="p-5 mt-1">
+                <h1 class="font-semibold text-xl  border-dashed border-b-2 ">How do you create, add, and remove elements using JavaScript?</h1>
+                <p>To create an HTML element we use: document.createElement("Element Name here")<br> To add an element we use parentchildname.append("Item which we want to add")<br>To remove an HTML Elements we use document.remove()</p>
+            </div>
+        </div>
+
     </div>
 
     <script src="learnnew.js"></script>
